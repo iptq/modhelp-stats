@@ -1,0 +1,845 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>#mapping @ OSU #mapping stats by IOException</title>
+<style type="text/css" title="softgreen">
+/* <!--
+This is a soft green theme that I created. It is the first of many that
+I
+will create.
+Visit http://ircstats.axelay.com to see it in action!
+
+Created by: Melody Mayberry, http://www.melbell.com
+
+Place this line in pisg.cfg
+<set hicell="#B4CEA9" hicell2="#CCEAC0">
+--> */
+
+/* <!-- These are for the regular links (in the stats) --> */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link {
+    color: #008800;
+}
+a:visited {
+    color: #008800;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: ##008800;
+}
+
+/* <!-- These are for other links EX: Links at the bottom of the page --> */
+a.background {
+    text-decoration: none;
+}
+
+a.background:link {
+    color: #008800;
+}
+
+a.background:visited {
+    color: #008800;
+}
+
+a.background:hover {
+    text-decoration: underline;
+    color: #008800;
+}
+
+body {
+    background-color: #dfffd1;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+td {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align: left;
+}
+
+.title {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* <!-- Cell Properties for Headlines EX: "Most Active Nicks" --> */
+.headtext {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #54604F;
+}
+
+/* <!-- Has no apparent effect --> */
+.headlinebg {
+    background-color: #000000;
+}
+
+/* <!-- Column Titles in Numbered Lists EX: "Most Active Nicks" --> */
+.tdtop {
+    background-color: #CDEBC1;
+}
+
+/* <!-- Cell in "Big Numbers" section, also the cells of the data in certain
+numbered lists (all except the "Most active nicks" and the "Users with
+most
+nicknames" sections) --> */
+.hicell {
+    background-color: #C1DDB5;
+}
+
+/* <!-- Cells of the data in "Users with most nicknames" section --> */
+.hicell10 {
+    background-color: #C1DDB5;
+    font-size: 10px;
+}
+
+/* <!-- In numbered lists, the cell properties for 2+ --> */
+.rankc {
+    background-color: #B4CEA9;
+}
+
+/* <!-- In numbered lists, the cell properties for 1 --> */
+.hirankc {
+    background-color: #91AC87;
+    font-weight: bold;
+}
+
+/* <!-- Name Cells in These Didn't Make It... --> */
+.rankc10 {
+    background-color: #CCEAC0;
+    font-size: 10px;
+}
+
+/* <!-- Hours "1-23"  in Most Active Times Cell --> */
+.rankc10center {
+    background-color: #B4CEA9;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* <!-- Hour "0" in Most Active Times Cell --> */
+.hirankc10center {
+    background-color: #91AC87;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+.small {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+.asmall {
+      font-family: "Arial narrow", Arial, sans-serif;
+      font-size: 10px;
+      color: black;
+      text-align: center;
+}
+</style>
+</head>
+<body>
+<div align="center">
+
+<span class="title">#mapping @ OSU #mapping stats by IOException</span><br />
+<br />
+Statistics generated on  Wednesday 3 March 2021 - 0:00:15
+<br />During this 32-day reporting period, a total of <b>787</b> different nicks were represented on #mapping.<br /><br />
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Most active times</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0"><tr>
+<td align="center" valign="bottom" class="asmall">4.0%<br /><img src="gfx//blue-v.png" width="15" height="77" alt="7877" title="7877"/></td>
+<td align="center" valign="bottom" class="asmall">3.7%<br /><img src="gfx//blue-v.png" width="15" height="70" alt="7168" title="7168"/></td>
+<td align="center" valign="bottom" class="asmall">3.1%<br /><img src="gfx//blue-v.png" width="15" height="59" alt="6084" title="6084"/></td>
+<td align="center" valign="bottom" class="asmall">3.3%<br /><img src="gfx//blue-v.png" width="15" height="63" alt="6448" title="6448"/></td>
+<td align="center" valign="bottom" class="asmall">3.7%<br /><img src="gfx//blue-v.png" width="15" height="70" alt="7141" title="7141"/></td>
+<td align="center" valign="bottom" class="asmall">4.0%<br /><img src="gfx//blue-v.png" width="15" height="76" alt="7769" title="7769"/></td>
+<td align="center" valign="bottom" class="asmall">3.8%<br /><img src="gfx//green-v.png" width="15" height="73" alt="7464" title="7464"/></td>
+<td align="center" valign="bottom" class="asmall">4.2%<br /><img src="gfx//green-v.png" width="15" height="81" alt="8269" title="8269"/></td>
+<td align="center" valign="bottom" class="asmall">4.7%<br /><img src="gfx//green-v.png" width="15" height="89" alt="9136" title="9136"/></td>
+<td align="center" valign="bottom" class="asmall">5.1%<br /><img src="gfx//green-v.png" width="15" height="98" alt="9983" title="9983"/></td>
+<td align="center" valign="bottom" class="asmall">5.0%<br /><img src="gfx//green-v.png" width="15" height="96" alt="9842" title="9842"/></td>
+<td align="center" valign="bottom" class="asmall">5.2%<br /><img src="gfx//green-v.png" width="15" height="100" alt="10152" title="10152"/></td>
+<td align="center" valign="bottom" class="asmall">4.8%<br /><img src="gfx//yellow-v.png" width="15" height="92" alt="9441" title="9441"/></td>
+<td align="center" valign="bottom" class="asmall">4.7%<br /><img src="gfx//yellow-v.png" width="15" height="91" alt="9257" title="9257"/></td>
+<td align="center" valign="bottom" class="asmall">4.9%<br /><img src="gfx//yellow-v.png" width="15" height="94" alt="9610" title="9610"/></td>
+<td align="center" valign="bottom" class="asmall">4.9%<br /><img src="gfx//yellow-v.png" width="15" height="94" alt="9596" title="9596"/></td>
+<td align="center" valign="bottom" class="asmall">3.8%<br /><img src="gfx//yellow-v.png" width="15" height="72" alt="7354" title="7354"/></td>
+<td align="center" valign="bottom" class="asmall">3.5%<br /><img src="gfx//yellow-v.png" width="15" height="68" alt="6928" title="6928"/></td>
+<td align="center" valign="bottom" class="asmall">3.3%<br /><img src="gfx//red-v.png" width="15" height="63" alt="6479" title="6479"/></td>
+<td align="center" valign="bottom" class="asmall">3.9%<br /><img src="gfx//red-v.png" width="15" height="75" alt="7651" title="7651"/></td>
+<td align="center" valign="bottom" class="asmall">3.7%<br /><img src="gfx//red-v.png" width="15" height="70" alt="7151" title="7151"/></td>
+<td align="center" valign="bottom" class="asmall">4.4%<br /><img src="gfx//red-v.png" width="15" height="84" alt="8586" title="8586"/></td>
+<td align="center" valign="bottom" class="asmall">4.3%<br /><img src="gfx//red-v.png" width="15" height="83" alt="8453" title="8453"/></td>
+<td align="center" valign="bottom" class="asmall">3.8%<br /><img src="gfx//red-v.png" width="15" height="73" alt="7428" title="7428"/></td>
+</tr><tr>
+<td class="rankc10center" align="center">0</td>
+<td class="rankc10center" align="center">1</td>
+<td class="rankc10center" align="center">2</td>
+<td class="rankc10center" align="center">3</td>
+<td class="rankc10center" align="center">4</td>
+<td class="rankc10center" align="center">5</td>
+<td class="rankc10center" align="center">6</td>
+<td class="rankc10center" align="center">7</td>
+<td class="rankc10center" align="center">8</td>
+<td class="rankc10center" align="center">9</td>
+<td class="rankc10center" align="center">10</td>
+<td class="hirankc10center" align="center">11</td>
+<td class="rankc10center" align="center">12</td>
+<td class="rankc10center" align="center">13</td>
+<td class="rankc10center" align="center">14</td>
+<td class="rankc10center" align="center">15</td>
+<td class="rankc10center" align="center">16</td>
+<td class="rankc10center" align="center">17</td>
+<td class="rankc10center" align="center">18</td>
+<td class="rankc10center" align="center">19</td>
+<td class="rankc10center" align="center">20</td>
+<td class="rankc10center" align="center">21</td>
+<td class="rankc10center" align="center">22</td>
+<td class="rankc10center" align="center">23</td>
+</tr></table>
+<table align="center" border="0" width="520"><tr>
+<td align="center" class="asmall"><img src="gfx//blue-h.png" width="40" height="15" align="middle" alt="0-5" /> = 0-5</td>
+<td align="center" class="asmall"><img src="gfx//green-h.png" width="40" height="15" align="middle" alt="6-11" /> = 6-11</td>
+<td align="center" class="asmall"><img src="gfx//yellow-h.png" width="40" height="15" align="middle" alt="12-17" /> = 12-17</td>
+<td align="center" class="asmall"><img src="gfx//red-h.png" width="40" height="15" align="middle" alt="18-23" /> = 18-23</td>
+</tr></table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Most active nicks</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr><td>&nbsp;</td><td class="tdtop"><b>Nick</b></td><td class="tdtop"><b>Number of lines</b></td><td class="tdtop"><b>When?</b></td><td class="tdtop"><b>Last seen</b></td><td class="tdtop"><b>Random quote</b></td>
+
+</tr>
+<tr><td class="hirankc" align="left">1</td>
+<td style="background-color: #babadc"><span>MentaiCosmic</span></td><td style="background-color: #babadc">4740</td><td style="background-color: #babadc"><img src="gfx//blue-h.png" border="0" width="18" height="15" alt="2182" title="2182" /><img src="gfx//green-h.png" border="0" width="10" height="15" alt="1185" title="1185" /><img src="gfx//yellow-h.png" border="0" width="3" height="15" alt="379" title="379" /><img src="gfx//red-h.png" border="0" width="8" height="15" alt="994" title="994" /></td><td style="background-color: #babadc">today</td><td style="background-color: #babadc">"you dont need persmission for timing"</td>
+</tr>
+<tr><td class="rankc" align="left">2</td>
+<td style="background-color: #bbbbdb"><span>lit120</span></td><td style="background-color: #bbbbdb">2011</td><td style="background-color: #bbbbdb"><img src="gfx//blue-h.png" border="0" width="18" height="15" alt="940" title="940" /><img src="gfx//green-h.png" border="0" width="15" height="15" alt="801" title="801" /><img src="gfx//red-h.png" border="0" width="5" height="15" alt="266" title="266" /></td><td style="background-color: #bbbbdb">today</td><td style="background-color: #bbbbdb">"can you explain it based on what you just said?"</td>
+</tr>
+<tr><td class="rankc" align="left">3</td>
+<td style="background-color: #bcbcda"><span>Wanpachi</span></td><td style="background-color: #bcbcda">1767</td><td style="background-color: #bcbcda"><img src="gfx//blue-h.png" border="0" width="2" height="15" alt="117" title="117" /><img src="gfx//green-h.png" border="0" width="1" height="15" alt="88" title="88" /><img src="gfx//yellow-h.png" border="0" width="15" height="15" alt="672" title="672" /><img src="gfx//red-h.png" border="0" width="20" height="15" alt="890" title="890" /></td><td style="background-color: #bcbcda">today</td><td style="background-color: #bcbcda">"<a href="https://cycoton.s-ul.eu/grf6y7pZ.osz" target="_blank" title="Open in new window: https://cycoton.s-ul.eu/grf6y7pZ.osz">https://cycoton.s-ul.eu/grf6y7pZ.osz</a>"</td>
+</tr>
+<tr><td class="rankc" align="left">4</td>
+<td style="background-color: #bcbcda"><span>dreamteamrox115</span></td><td style="background-color: #bcbcda">1562</td><td style="background-color: #bcbcda"><img src="gfx//blue-h.png" border="0" width="12" height="15" alt="477" title="477" /><img src="gfx//green-h.png" border="0" width="6" height="15" alt="244" title="244" /><img src="gfx//yellow-h.png" border="0" width="4" height="15" alt="172" title="172" /><img src="gfx//red-h.png" border="0" width="17" height="15" alt="669" title="669" /></td><td style="background-color: #bcbcda">today</td><td style="background-color: #bcbcda">"for a example of next time"</td>
+</tr>
+<tr><td class="rankc" align="left">5</td>
+<td style="background-color: #bdbdd9"><span>BlastTheKidd</span></td><td style="background-color: #bdbdd9">1373</td><td style="background-color: #bdbdd9"><img src="gfx//blue-h.png" border="0" width="17" height="15" alt="587" title="587" /><img src="gfx//green-h.png" border="0" width="9" height="15" alt="336" title="336" /><img src="gfx//yellow-h.png" border="0" width="3" height="15" alt="103" title="103" /><img src="gfx//red-h.png" border="0" width="10" height="15" alt="347" title="347" /></td><td style="background-color: #bdbdd9">today</td><td style="background-color: #bdbdd9">"i dont wanna dl a map from google drive"</td>
+</tr>
+<tr><td class="rankc" align="left">6</td>
+<td style="background-color: #bebed8"><span>Butylcyclobutyn</span></td><td style="background-color: #bebed8">1239</td><td style="background-color: #bebed8"><img src="gfx//green-h.png" border="0" width="12" height="15" alt="395" title="395" /><img src="gfx//yellow-h.png" border="0" width="26" height="15" alt="835" title="835" /></td><td style="background-color: #bebed8">today</td><td style="background-color: #bebed8">"i had [keqing] this morning"</td>
+</tr>
+<tr><td class="rankc" align="left">7</td>
+<td style="background-color: #bfbfd8"><span>synderes</span></td><td style="background-color: #bfbfd8">1233</td><td style="background-color: #bfbfd8"><img src="gfx//blue-h.png" border="0" width="3" height="15" alt="108" title="108" /><img src="gfx//green-h.png" border="0" width="3" height="15" alt="121" title="121" /><img src="gfx//yellow-h.png" border="0" width="12" height="15" alt="385" title="385" /><img src="gfx//red-h.png" border="0" width="20" height="15" alt="619" title="619" /></td><td style="background-color: #bfbfd8">today</td><td style="background-color: #bfbfd8">"chronosp my favorite  mappa"</td>
+</tr>
+<tr><td class="rankc" align="left">8</td>
+<td style="background-color: #bfbfd7"><span>PaRaDogi</span></td><td style="background-color: #bfbfd7">1183</td><td style="background-color: #bfbfd7"><img src="gfx//blue-h.png" border="0" width="12" height="15" alt="363" title="363" /><img src="gfx//green-h.png" border="0" width="15" height="15" alt="448" title="448" /><img src="gfx//yellow-h.png" border="0" width="12" height="15" alt="364" title="364" /></td><td style="background-color: #bfbfd7">today</td><td style="background-color: #bfbfd7">"nozhomi when will you quit bng"</td>
+</tr>
+<tr><td class="rankc" align="left">9</td>
+<td style="background-color: #c0c0d6"><span>Ilay</span></td><td style="background-color: #c0c0d6">1155</td><td style="background-color: #c0c0d6"><img src="gfx//blue-h.png" border="0" width="3" height="15" alt="99" title="99" /><img src="gfx//green-h.png" border="0" width="20" height="15" alt="592" title="592" /><img src="gfx//yellow-h.png" border="0" width="16" height="15" alt="464" title="464" /></td><td style="background-color: #c0c0d6">today</td><td style="background-color: #c0c0d6">"there is that discord server that has many moddig queues"</td>
+</tr>
+<tr><td class="rankc" align="left">10</td>
+<td style="background-color: #c1c1d6"><span>Horrifying</span></td><td style="background-color: #c1c1d6">982</td><td style="background-color: #c1c1d6"><img src="gfx//blue-h.png" border="0" width="4" height="15" alt="122" title="122" /><img src="gfx//green-h.png" border="0" width="3" height="15" alt="83" title="83" /><img src="gfx//yellow-h.png" border="0" width="10" height="15" alt="261" title="261" /><img src="gfx//red-h.png" border="0" width="21" height="15" alt="516" title="516" /></td><td style="background-color: #c1c1d6">2 days ago</td><td style="background-color: #c1c1d6">"whew finally logging onto osu after work hello #mapping gamers"</td>
+</tr>
+<tr><td class="rankc" align="left">11</td>
+<td style="background-color: #c1c1d5"><span>WLS6</span></td><td style="background-color: #c1c1d5">905</td><td style="background-color: #c1c1d5"><img src="gfx//blue-h.png" border="0" width="26" height="15" alt="601" title="601" /><img src="gfx//green-h.png" border="0" width="13" height="15" alt="304" title="304" /></td><td style="background-color: #c1c1d5">today</td><td style="background-color: #c1c1d5">"and i made the 1-2 less spaced than the 3-4"</td>
+</tr>
+<tr><td class="rankc" align="left">12</td>
+<td style="background-color: #c2c2d4"><span>Nico_B</span></td><td style="background-color: #c2c2d4">901</td><td style="background-color: #c2c2d4"><img src="gfx//blue-h.png" border="0" width="11" height="15" alt="261" title="261" /><img src="gfx//green-h.png" border="0" width="18" height="15" alt="409" title="409" /><img src="gfx//red-h.png" border="0" width="10" height="15" alt="231" title="231" /></td><td style="background-color: #c2c2d4">today</td><td style="background-color: #c2c2d4">"strangest request ive ever heard so far"</td>
+</tr>
+<tr><td class="rankc" align="left">13</td>
+<td style="background-color: #c3c3d4"><span>FakeAngelOfOsu</span></td><td style="background-color: #c3c3d4">878</td><td style="background-color: #c3c3d4"><img src="gfx//blue-h.png" border="0" width="12" height="15" alt="268" title="268" /><img src="gfx//green-h.png" border="0" width="16" height="15" alt="359" title="359" /><img src="gfx//red-h.png" border="0" width="11" height="15" alt="247" title="247" /></td><td style="background-color: #c3c3d4">today</td><td style="background-color: #c3c3d4">"was gonna say wanna gd 18 minute map for fun but eh"</td>
+</tr>
+<tr><td class="rankc" align="left">14</td>
+<td style="background-color: #c4c4d3"><span>Khoal</span></td><td style="background-color: #c4c4d3">877</td><td style="background-color: #c4c4d3"><img src="gfx//blue-h.png" border="0" width="11" height="15" alt="250" title="250" /><img src="gfx//green-h.png" border="0" width="5" height="15" alt="122" title="122" /><img src="gfx//yellow-h.png" border="0" width="8" height="15" alt="178" title="178" /><img src="gfx//red-h.png" border="0" width="14" height="15" alt="327" title="327" /></td><td style="background-color: #c4c4d3">today</td><td style="background-color: #c4c4d3">"time for part 6 of the matrix, Resu returns"</td>
+</tr>
+<tr><td class="rankc" align="left">15</td>
+<td style="background-color: #c4c4d2"><span>Randomness64</span></td><td style="background-color: #c4c4d2">858</td><td style="background-color: #c4c4d2"><img src="gfx//blue-h.png" border="0" width="2" height="15" alt="52" title="52" /><img src="gfx//green-h.png" border="0" width="28" height="15" alt="622" title="622" /><img src="gfx//yellow-h.png" border="0" width="8" height="15" alt="184" title="184" /></td><td style="background-color: #c4c4d2">today</td><td style="background-color: #c4c4d2">"<a href="https://soundcloud.com/mosaicwav/moonstar-halloweenshort-ver" target="_blank" title="Open in new window: https://soundcloud.com/mosaicwav/moonstar-halloweenshort-ver">https://soundcloud.com/mosaicwav/moonstar-halloweenshort-ver</a>"</td>
+</tr>
+<tr><td class="rankc" align="left">16</td>
+<td style="background-color: #c5c5d2"><span>Rei_Hakurei</span></td><td style="background-color: #c5c5d2">811</td><td style="background-color: #c5c5d2"><img src="gfx//blue-h.png" border="0" width="13" height="15" alt="283" title="283" /><img src="gfx//green-h.png" border="0" width="17" height="15" alt="357" title="357" /><img src="gfx//yellow-h.png" border="0" width="1" height="15" alt="24" title="24" /><img src="gfx//red-h.png" border="0" width="7" height="15" alt="147" title="147" /></td><td style="background-color: #c5c5d2">yesterday</td><td style="background-color: #c5c5d2">"my account is 10yo now 'w')"</td>
+</tr>
+<tr><td class="rankc" align="left">17</td>
+<td style="background-color: #c6c6d1"><span>Ongaku</span></td><td style="background-color: #c6c6d1">800</td><td style="background-color: #c6c6d1"><img src="gfx//blue-h.png" border="0" width="2" height="15" alt="56" title="56" /><img src="gfx//yellow-h.png" border="0" width="14" height="15" alt="295" title="295" /><img src="gfx//red-h.png" border="0" width="22" height="15" alt="449" title="449" /></td><td style="background-color: #c6c6d1">2 days ago</td><td style="background-color: #c6c6d1">"my mouse stuck on some stuff"</td>
+</tr>
+<tr><td class="rankc" align="left">18</td>
+<td style="background-color: #c6c6d0"><span>StaroaX</span></td><td style="background-color: #c6c6d0">733</td><td style="background-color: #c6c6d0"><img src="gfx//blue-h.png" border="0" width="21" height="15" alt="389" title="389" /><img src="gfx//green-h.png" border="0" width="9" height="15" alt="178" title="178" /><img src="gfx//yellow-h.png" border="0" width="6" height="15" alt="117" title="117" /><img src="gfx//red-h.png" border="0" width="2" height="15" alt="49" title="49" /></td><td style="background-color: #c6c6d0">today</td><td style="background-color: #c6c6d0">"porbably just cause he wanted to use all the cg changes"</td>
+</tr>
+<tr><td class="rankc" align="left">19</td>
+<td style="background-color: #c7c7d0"><span>Uberzolik</span></td><td style="background-color: #c7c7d0">703</td><td style="background-color: #c7c7d0"><img src="gfx//green-h.png" border="0" width="28" height="15" alt="495" title="495" /><img src="gfx//yellow-h.png" border="0" width="4" height="15" alt="76" title="76" /><img src="gfx//red-h.png" border="0" width="7" height="15" alt="132" title="132" /></td><td style="background-color: #c7c7d0">today</td><td style="background-color: #c7c7d0">"Its ok to not be a player. Its ok"</td>
+</tr>
+<tr><td class="rankc" align="left">20</td>
+<td style="background-color: #c8c8cf"><span>CDFA</span></td><td style="background-color: #c8c8cf">693</td><td style="background-color: #c8c8cf"><img src="gfx//yellow-h.png" border="0" width="16" height="15" alt="284" title="284" /><img src="gfx//red-h.png" border="0" width="23" height="15" alt="407" title="407" /></td><td style="background-color: #c8c8cf">4 days ago</td><td style="background-color: #c8c8cf">"YA LMAO I was like firetruck this happy ass earth lol"</td>
+</tr>
+<tr><td class="rankc" align="left">21</td>
+<td style="background-color: #c9c9ce"><span>Shii</span></td><td style="background-color: #c9c9ce">663</td><td style="background-color: #c9c9ce"><img src="gfx//blue-h.png" border="0" width="2" height="15" alt="48" title="48" /><img src="gfx//green-h.png" border="0" width="10" height="15" alt="168" title="168" /><img src="gfx//yellow-h.png" border="0" width="26" height="15" alt="447" title="447" /></td><td style="background-color: #c9c9ce">today</td><td style="background-color: #c9c9ce">"to mod a spread of a 27 minute long comp"</td>
+</tr>
+<tr><td class="rankc" align="left">22</td>
+<td style="background-color: #c9c9ce"><span>theramdans</span></td><td style="background-color: #c9c9ce">532</td><td style="background-color: #c9c9ce"><img src="gfx//blue-h.png" border="0" width="10" height="15" alt="145" title="145" /><img src="gfx//green-h.png" border="0" width="25" height="15" alt="335" title="335" /><img src="gfx//yellow-h.png" border="0" width="1" height="15" alt="14" title="14" /><img src="gfx//red-h.png" border="0" width="2" height="15" alt="38" title="38" /></td><td style="background-color: #c9c9ce">today</td><td style="background-color: #c9c9ce">"that ver is sad, no hate to the mapper tho"</td>
+</tr>
+<tr><td class="rankc" align="left">23</td>
+<td style="background-color: #cacacd"><span>NoPPLeft</span></td><td style="background-color: #cacacd">527</td><td style="background-color: #cacacd"><img src="gfx//blue-h.png" border="0" width="5" height="15" alt="75" title="75" /><img src="gfx//green-h.png" border="0" width="13" height="15" alt="178" title="178" /><img src="gfx//yellow-h.png" border="0" width="18" height="15" alt="246" title="246" /><img src="gfx//red-h.png" border="0" width="2" height="15" alt="28" title="28" /></td><td style="background-color: #cacacd">2 days ago</td><td style="background-color: #cacacd">"215bpm at 172457 and 206 at 174911"</td>
+</tr>
+<tr><td class="rankc" align="left">24</td>
+<td style="background-color: #cbcbcc"><span>Li_Syaoran</span></td><td style="background-color: #cbcbcc">501</td><td style="background-color: #cbcbcc"><img src="gfx//blue-h.png" border="0" width="4" height="15" alt="51" title="51" /><img src="gfx//green-h.png" border="0" width="18" height="15" alt="233" title="233" /><img src="gfx//yellow-h.png" border="0" width="16" height="15" alt="201" title="201" /><img src="gfx//red-h.png" border="0" width="1" height="15" alt="16" title="16" /></td><td style="background-color: #cbcbcc">yesterday</td><td style="background-color: #cbcbcc">"looking back on groovy now"</td>
+</tr>
+<tr><td class="rankc" align="left">25</td>
+<td style="background-color: #cccccc"><span>imaginative</span></td><td style="background-color: #cccccc">488</td><td style="background-color: #cccccc"><img src="gfx//blue-h.png" border="0" width="1" height="15" alt="14" title="14" /><img src="gfx//green-h.png" border="0" width="9" height="15" alt="116" title="116" /><img src="gfx//yellow-h.png" border="0" width="13" height="15" alt="167" title="167" /><img src="gfx//red-h.png" border="0" width="15" height="15" alt="191" title="191" /></td><td style="background-color: #cccccc">today</td><td style="background-color: #cccccc">"literally worst bang dream group mentai"</td>
+</tr>
+</table><br />
+<br /><b><i>These didn't make it to the top:</i></b><table><tr>
+<td class="rankc10"><span>rho (483)</span></td>
+<td class="rankc10"><span>Amateurre (478)</span></td>
+<td class="rankc10"><span>Logic_Agent (474)</span></td>
+<td class="rankc10"><span>ConsumerOfBean (460)</span></td>
+<td class="rankc10"><span>squishi (456)</span></td>
+</tr><tr>
+<td class="rankc10"><span>Vulkin (454)</span></td>
+<td class="rankc10"><span>ToadSocks537 (425)</span></td>
+<td class="rankc10"><span>Mendozer (393)</span></td>
+<td class="rankc10"><span>I_Must_Decrease (374)</span></td>
+<td class="rankc10"><span>MyAngelInazuma (373)</span></td>
+</tr><tr>
+<td class="rankc10"><span>Sem (364)</span></td>
+<td class="rankc10"><span>A_l_d_a_i_r (352)</span></td>
+<td class="rankc10"><span>My_Angel_Watame (348)</span></td>
+<td class="rankc10"><span>M_i_X (348)</span></td>
+<td class="rankc10"><span>Aranel (347)</span></td>
+</tr><tr>
+<td class="rankc10"><span>Rasu (337)</span></td>
+<td class="rankc10"><span>Shurelia (335)</span></td>
+<td class="rankc10"><span>Nagabi (308)</span></td>
+<td class="rankc10"><span>temp_name_lol (295)</span></td>
+<td class="rankc10"><span>Log_Off_Now (286)</span></td>
+</tr><tr>
+<td class="rankc10"><span>srijanfromsd (284)</span></td>
+<td class="rankc10"><span>Nuvolina (279)</span></td>
+<td class="rankc10"><span>Ancelysia (274)</span></td>
+<td class="rankc10"><span>Himada (270)</span></td>
+<td class="rankc10"><span>Oxydeo (259)</span></td>
+</tr><tr>
+<td class="rankc10"><span>penguin2233 (256)</span></td>
+<td class="rankc10"><span>Touhou (235)</span></td>
+<td class="rankc10"><span>egg_and_cheese (232)</span></td>
+<td class="rankc10"><span>KlaksoncakFish (228)</span></td>
+<td class="rankc10"><span>Theedoo (220)</span></td>
+</tr><tr>
+<td class="rankc10"><span>ferret_irl (214)</span></td>
+<td class="rankc10"><span>FailureAtOsu (212)</span></td>
+<td class="rankc10"><span>MagiFire12 (211)</span></td>
+<td class="rankc10"><span>Venix (203)</span></td>
+<td class="rankc10"><span>Kazato_Asa (203)</span></td>
+</tr><tr>
+<td class="rankc10"><span>pw384 (202)</span></td>
+<td class="rankc10"><span>Seijiro (187)</span></td>
+<td class="rankc10"><span>strickluke (186)</span></td>
+<td class="rankc10"><span>Dawnsday (186)</span></td>
+<td class="rankc10"><span>Raburauza (186)</span></td>
+</tr><tr>
+<td class="rankc10"><span>Silica (185)</span></td>
+<td class="rankc10"><span>Deca (179)</span></td>
+<td class="rankc10"><span>Een_Persoon (176)</span></td>
+<td class="rankc10"><span>Nevo (170)</span></td>
+<td class="rankc10"><span>Zelzatter_Zero (162)</span></td>
+</tr><tr>
+<td class="rankc10"><span>ztrot (160)</span></td>
+<td class="rankc10"><span>Luminiscental (159)</span></td>
+<td class="rankc10"><span>Warpez (157)</span></td>
+<td class="rankc10"><span>AuracleTech (156)</span></td>
+<td class="rankc10"><span>Carcinogenesis (156)</span></td>
+</tr></table>
+<br /><b>By the way, there were 712 other nicks.</b><br />
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Big numbers</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table width="714">
+<tr><td class="hicell">Is <b>Nico_B</b> stupid or just asking too many questions?  23.5% lines contained a question!
+<br /><span class="small"><b>GeNeRaLShAdOw</b> didn't know that much either.  22.9% of his/her lines were questions.</span>
+</td></tr>
+<tr><td class="hicell">The loudest one was <b>gwb</b>, who yelled 11.9% of the time!
+<br /><span class="small">Another <i>old yeller</i> was <b>MkGuh</b>, who shouted 8.1% of the time!</span>
+</td></tr>
+<tr><td class="hicell">It seems that <b>Tycani</b>'s shift-key is hanging:  13.8% of the time he/she wrote UPPERCASE.<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Tycani&gt; TRITO</span>
+<br /><span class="small"><b>Mokobe</b> just forgot to deactivate his/her Caps-Lock.  He/She wrote UPPERCASE 11.4% of the time.</span>
+</td></tr>
+<tr><td class="hicell">Nobody beat anyone up.  Everybody was friendly.</td></tr>
+<tr><td class="hicell"><b>YTYuyu</b> brings happiness to the world.  14.8% lines contained smiling faces.  :)
+<br /><span class="small"><b>Not_Sotarks</b> isn't a sad person either, smiling 7.9% of the time.</span>
+</td></tr>
+<tr><td class="hicell"><b>Niva</b> seems to be sad at the moment:  7.8% lines contained sad faces.  :(
+<br /><span class="small"><b>LeCandy</b> is also a sad person, crying 5.7% of the time.</span>
+</td></tr>
+<tr><td class="hicell"><b>xsoci</b> wrote the longest lines, averaging 51.9 letters per line.<br />
+<span class="small">#mapping average was 27.0 letters per line.</span></td></tr>
+<tr><td class="hicell"><b>Oxydeo</b> wrote the shortest lines, averaging 8.8 characters per line.<br />
+<span class="small"><b>LeCandy</b> was tight-lipped, too, averaging 11.4 characters.</span></td></tr>
+<tr><td class="hicell"><b>MentaiCosmic</b> spoke a total of 22292 words!
+<br /><span class="small">MentaiCosmic's faithful follower, <b>lit120</b>, didn't speak so much: 10174 words.</span>
+</td></tr>
+<tr><td class="hicell"><b>azn300</b> wrote an average of 41.00 words per line.
+<br /><span class="small">Channel average was 5.35 words per line.</span>
+</td></tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Most used words</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr>
+<td>&nbsp;</td><td class="tdtop"><b>Word</b></td>
+<td class="tdtop"><b>Number of Uses</b></td>
+<td class="tdtop"><b>Last Used by</b></td></tr>
+<tr><td class="hirankc">1</td>
+<td class="hicell">mapping</td>
+<td class="hicell">1489</td>
+<td class="hicell">Wanpachi</td>
+</tr>
+<tr><td class="rankc">2</td>
+<td class="hicell">editing</td>
+<td class="hicell">754</td>
+<td class="hicell">Log_Off_Now</td>
+</tr>
+<tr><td class="rankc">3</td>
+<td class="hicell">think</td>
+<td class="hicell">635</td>
+<td class="hicell">Petal</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell">there</td>
+<td class="hicell">598</td>
+<td class="hicell">MyAngelInazuma</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell">about</td>
+<td class="hicell">582</td>
+<td class="hicell">StaroaX</td>
+</tr>
+<tr><td class="rankc">6</td>
+<td class="hicell">ranked</td>
+<td class="hicell">559</td>
+<td class="hicell">Nuvolina</td>
+</tr>
+<tr><td class="rankc">7</td>
+<td class="hicell">Hello</td>
+<td class="hicell">459</td>
+<td class="hicell">Wanpachi</td>
+</tr>
+<tr><td class="rankc">8</td>
+<td class="hicell">still</td>
+<td class="hicell">450</td>
+<td class="hicell">remclean</td>
+</tr>
+<tr><td class="rankc">9</td>
+<td class="hicell">would</td>
+<td class="hicell">442</td>
+<td class="hicell">Nxroy_Cloud</td>
+</tr>
+<tr><td class="rankc">10</td>
+<td class="hicell">really</td>
+<td class="hicell">435</td>
+<td class="hicell">MyAngelInazuma</td>
+</tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Most referenced nicks</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr>
+<td>&nbsp;</td><td class="tdtop"><b>Nick</b></td>
+<td class="tdtop"><b>Number of Uses</b></td>
+<td class="tdtop"><b>Last Used by</b></td></tr>
+<tr><td class="hirankc">1</td>
+<td class="hicell">Wanpachi</td>
+<td class="hicell">134</td>
+<td class="hicell">Log_Off_Now</td>
+</tr>
+<tr><td class="rankc">2</td>
+<td class="hicell">MentaiCosmic</td>
+<td class="hicell">107</td>
+<td class="hicell">Dummyperson</td>
+</tr>
+<tr><td class="rankc">3</td>
+<td class="hicell">synderes</td>
+<td class="hicell">87</td>
+<td class="hicell">Nuvolina</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell">CDFA</td>
+<td class="hicell">70</td>
+<td class="hicell">Garven</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell">Uberzolik</td>
+<td class="hicell">66</td>
+<td class="hicell">Aireu</td>
+</tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Smileys :-)</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr>
+<td>&nbsp;</td><td class="tdtop"><b>Smiley</b></td>
+<td class="tdtop"><b>Number of Uses</b></td>
+<td class="tdtop"><b>Last Used by</b></td></tr>
+<tr><td class="hirankc">1</td>
+<td class="hicell">:(</td>
+<td class="hicell">231</td>
+<td class="hicell">Maiev</td>
+</tr>
+<tr><td class="rankc">2</td>
+<td class="hicell">:)</td>
+<td class="hicell">166</td>
+<td class="hicell">SangKrazF1nal3</td>
+</tr>
+<tr><td class="rankc">3</td>
+<td class="hicell">:D</td>
+<td class="hicell">125</td>
+<td class="hicell">YTYuyu</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell">:p</td>
+<td class="hicell">72</td>
+<td class="hicell">Nuvolina</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell">:^)</td>
+<td class="hicell">63</td>
+<td class="hicell">NekuMagetsu</td>
+</tr>
+<tr><td class="rankc">6</td>
+<td class="hicell">D:</td>
+<td class="hicell">35</td>
+<td class="hicell">Darkk</td>
+</tr>
+<tr><td class="rankc">7</td>
+<td class="hicell">:/</td>
+<td class="hicell">28</td>
+<td class="hicell">RinAisha</td>
+</tr>
+<tr><td class="rankc">8</td>
+<td class="hicell">:P</td>
+<td class="hicell">25</td>
+<td class="hicell">LimeTwist</td>
+</tr>
+<tr><td class="rankc">9</td>
+<td class="hicell">:&gt;</td>
+<td class="hicell">13</td>
+<td class="hicell">buckwheatgame</td>
+</tr>
+<tr><td class="rankc">10</td>
+<td class="hicell">):</td>
+<td class="hicell">11</td>
+<td class="hicell">Ongaku</td>
+</tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Most referenced URLs</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr>
+<td>&nbsp;</td><td class="tdtop"><b>URL</b></td>
+<td class="tdtop"><b>Number of Uses</b></td>
+<td class="tdtop"><b>Last Used by</b></td></tr>
+<tr><td class="hirankc">1</td>
+<td class="hicell"><a href="https://urmom.osu.technology/">https://urmom.osu.technology/</a></td>
+<td class="hicell">25</td>
+<td class="hicell">ToadSocks537</td>
+</tr>
+<tr><td class="rankc">2</td>
+<td class="hicell"><a href="https://osu.ppy.sh/beatmapsets/1367487%23osu/2828104">https://osu.ppy.sh/beatmapsets/1367487#osu/2828104</a></td>
+<td class="hicell">17</td>
+<td class="hicell">symphonycatYT</td>
+</tr>
+<tr><td class="rankc">3</td>
+<td class="hicell"><a href="https://drive.google.com/file/d/1D34hKUECcQUoUKqYpnjJD2HZPA1fLkUw/view?usp=sharing">https://drive.google.com/file/d/1D34hKUECcQUoUKqYpnjJD2HZPA1</a></td>
+<td class="hicell">7</td>
+<td class="hicell">WLS6</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell"><a href="https://osu.ppy.sh/beatmapsets/1370030%23osu/2832776">https://osu.ppy.sh/beatmapsets/1370030#osu/2832776</a></td>
+<td class="hicell">5</td>
+<td class="hicell">symphonycatYT</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell"><a href="https://osu.ppy.sh/beatmapsets/1357411%23osu/2809100">https://osu.ppy.sh/beatmapsets/1357411#osu/2809100</a></td>
+<td class="hicell">4</td>
+<td class="hicell">Scawroad</td>
+</tr>
+<tr><td class="rankc">6</td>
+<td class="hicell"><a href="https://drive.google.com/file/d/1PABqWFC46Nr9C6biOuZjcrRHMl2avF1x/view?usp=sharing">https://drive.google.com/file/d/1PABqWFC46Nr9C6biOuZjcrRHMl2</a></td>
+<td class="hicell">4</td>
+<td class="hicell">WLS6</td>
+</tr>
+<tr><td class="rankc">7</td>
+<td class="hicell"><a href="https://drive.google.com/file/d/1zhqqaOMC092nQcBTLAPcimubSLo-DtXi/view?usp=sharing">https://drive.google.com/file/d/1zhqqaOMC092nQcBTLAPcimubSLo</a></td>
+<td class="hicell">4</td>
+<td class="hicell">dreamteamrox115</td>
+</tr>
+<tr><td class="rankc">8</td>
+<td class="hicell"><a href="https://mappingtools.seira.moe/">https://mappingtools.seira.moe/</a></td>
+<td class="hicell">4</td>
+<td class="hicell">BlastTheKidd</td>
+</tr>
+<tr><td class="rankc">9</td>
+<td class="hicell"><a href="https://osu.ppy.sh/community/chat">https://osu.ppy.sh/community/chat</a></td>
+<td class="hicell">4</td>
+<td class="hicell">Niva</td>
+</tr>
+<tr><td class="rankc">10</td>
+<td class="hicell"><a href="https://bn.mappersguild.com/">https://bn.mappersguild.com/</a></td>
+<td class="hicell">3</td>
+<td class="hicell">pw384</td>
+</tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">#mapping Music Charts</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table border="0" width="714"><tr>
+<td>&nbsp;</td><td class="tdtop"><b>Song</b></td>
+<td class="tdtop"><b>How Often Played</b></td>
+<td class="tdtop"><b>Last Played by</b></td></tr>
+<tr><td class="hirankc">1</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/1735195" target="_blank" title="Open in new window: https://osu.ppy.sh/b/1735195">https://osu.ppy.sh/b/1735195</a> saradisk - ikazuchi</td>
+<td class="hicell">21</td>
+<td class="hicell">Khoal</td>
+</tr>
+<tr><td class="rankc">2</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2831010" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2831010">https://osu.ppy.sh/b/2831010</a> miwa - Shanranran feat.96Neko (</td>
+<td class="hicell">20</td>
+<td class="hicell">Khoal</td>
+</tr>
+<tr><td class="rankc">3</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2780564" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2780564">https://osu.ppy.sh/b/2780564</a> ReoNa - ANIMA</td>
+<td class="hicell">15</td>
+<td class="hicell">StaroaX</td>
+</tr>
+<tr><td class="rankc">4</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2740972" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2740972">https://osu.ppy.sh/b/2740972</a> MIMI feat. Hatsune Miku - Ai no</td>
+<td class="hicell">15</td>
+<td class="hicell">theramdans</td>
+</tr>
+<tr><td class="rankc">5</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2828044" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2828044">https://osu.ppy.sh/b/2828044</a> Lil Darkie - RAP MUSIC</td>
+<td class="hicell">14</td>
+<td class="hicell">mayasx</td>
+</tr>
+<tr><td class="rankc">6</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/808229" target="_blank" title="Open in new window: https://osu.ppy.sh/b/808229">https://osu.ppy.sh/b/808229</a> SoumaP - Hero</td>
+<td class="hicell">14</td>
+<td class="hicell">Khoal</td>
+</tr>
+<tr><td class="rankc">7</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2799976" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2799976">https://osu.ppy.sh/b/2799976</a> Car Seat Headrest - Beach Life-</td>
+<td class="hicell">14</td>
+<td class="hicell">dreamteamrox115</td>
+</tr>
+<tr><td class="rankc">8</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2774914" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2774914">https://osu.ppy.sh/b/2774914</a> Tanaka Hirokazu - A-TYPE</td>
+<td class="hicell">12</td>
+<td class="hicell">Horrifying</td>
+</tr>
+<tr><td class="rankc">9</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2840597" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2840597">https://osu.ppy.sh/b/2840597</a> Lil Darkie - SHOOT PEOPLE YOU D</td>
+<td class="hicell">11</td>
+<td class="hicell">mayasx</td>
+</tr>
+<tr><td class="rankc">10</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2834337" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2834337">https://osu.ppy.sh/b/2834337</a> Kino Hiko - The Noise of Rain</td>
+<td class="hicell">10</td>
+<td class="hicell">temp_name_lol</td>
+</tr>
+<tr><td class="rankc">11</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2823289" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2823289">https://osu.ppy.sh/b/2823289</a> halca - cue</td>
+<td class="hicell">9</td>
+<td class="hicell">Nyxelle</td>
+</tr>
+<tr><td class="rankc">12</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2848655" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2848655">https://osu.ppy.sh/b/2848655</a> Kamiyama Yoh - Iro Kousui (TV S</td>
+<td class="hicell">8</td>
+<td class="hicell">NeelR44</td>
+</tr>
+<tr><td class="rankc">13</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2822942" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2822942">https://osu.ppy.sh/b/2822942</a> Master - Echoes</td>
+<td class="hicell">8</td>
+<td class="hicell">Randomness64</td>
+</tr>
+<tr><td class="rankc">14</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2799976" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2799976">https://osu.ppy.sh/b/2799976</a> Car Seat Headrest - Beach Life-</td>
+<td class="hicell">7</td>
+<td class="hicell">dreamteamrox115</td>
+</tr>
+<tr><td class="rankc">15</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2831010" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2831010">https://osu.ppy.sh/b/2831010</a> miwa - Shanranran feat.96Neko (</td>
+<td class="hicell">7</td>
+<td class="hicell">Khoal</td>
+</tr>
+<tr><td class="rankc">16</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2811902" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2811902">https://osu.ppy.sh/b/2811902</a> Mixtrelle X REDSHiFT - Zamrud K</td>
+<td class="hicell">7</td>
+<td class="hicell">theramdans</td>
+</tr>
+<tr><td class="rankc">17</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2826914" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2826914">https://osu.ppy.sh/b/2826914</a> Yu-Peng Chen @HOYO-MiX - Nimble</td>
+<td class="hicell">7</td>
+<td class="hicell">Ongaku</td>
+</tr>
+<tr><td class="rankc">18</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2813391" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2813391">https://osu.ppy.sh/b/2813391</a> G Jones - Time</td>
+<td class="hicell">6</td>
+<td class="hicell">Arccat</td>
+</tr>
+<tr><td class="rankc">19</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2835408" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2835408">https://osu.ppy.sh/b/2835408</a> LeaF - Kyouki Ranbu (extended v</td>
+<td class="hicell">6</td>
+<td class="hicell">My_Angel_Watame</td>
+</tr>
+<tr><td class="rankc">20</td>
+<td class="hicell"><a href="https://osu.ppy.sh/b/2831665" target="_blank" title="Open in new window: https://osu.ppy.sh/b/2831665">https://osu.ppy.sh/b/2831665</a> Yu-Peng Chen @HOYO-MiX - Letter</td>
+<td class="hicell">5</td>
+<td class="hicell">lit120</td>
+</tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Other interesting numbers</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table width="714">
+<tr><td class="hicell">Nice opers here, no one got kicked!</td></tr>
+<tr><td class="hicell"><b>BanchoBot</b> donated 956 ops in the channel...
+</td></tr>
+<tr><td class="hicell">Wow, no op was taken on #mapping!</td></tr>
+<tr><td class="hicell"><b>MentaiCosmic</b> always lets us know what he/she's doing: 164 actions!<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* MentaiCosmic is listening to [<a href="https://osu.ppy.sh/b/1628302" target="_blank" title="Open in new window: https://osu.ppy.sh/b/1628302">https://osu.ppy.sh/b/1628302</a> Tanchiky - ENERGY SYNERGY MATRIX]</span>
+<br /><span class="small">Also, <b>lit120</b> tells us what's up with 122 actions.</span>
+</td></tr>
+<tr><td class="hicell"><b>MentaiCosmic</b> talks to him/herself a lot.  He/She wrote over 5 lines in a row 75 times!
+<br /><span class="small">Another lonely one was <b>Khoal</b>, who managed to hit 9 times.</span>
+</td></tr>
+<tr><td class="hicell"><b>YelloJello</b> couldn't decide whether to stay or go.  360 joins during this reporting period!</td></tr>
+<tr><td class="hicell"><b>Netrunner</b> has quite a potty mouth.  3.9% words were foul language.<br /><span class="small"><b>For example, like this:</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Netrunner&gt; what the firetruck</span>
+<br /><span class="small"><b>yukic</b> also makes sailors blush, 2.3% of the time.</span>
+</td></tr>
+</table>
+   <br />
+   <table width="710" cellpadding="1" cellspacing="0" border="0">
+    <tr>
+     <td class="headlinebg">
+      <table width="100%" cellpadding="2" cellspacing="0" border="0">
+       <tr>
+        <td class="headtext">Latest Topics</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+
+<table width="714">
+<tr><td class="hicell">A topic was never set on this channel.</td></tr>
+</table>
+Total number of lines: 195267.<br /><br />
+<span class="small">
+Stats generated by <a href="http://pisg.sourceforge.net/" title="Go to the pisg homepage" class="background">pisg</a> v0.73<br />
+pisg by <a href="http://mbrix.dk/" title="Go to the authors homepage" class="background">Morten Brix Pedersen</a> and others<br />
+Stats generated in 00 hours 00 minutes and 05 seconds
+</span>
+
+<!-- NFiles = "0"; Format = "weechat3"; Lang = "EN"; LangFile = "/usr/share/pisg/lang.txt"; Charset = "iso-8859-1"; LogCharset = ""; LogCharsetFallback = ""; LogPrefix = ""; LogSuffix = ""; NickTracking = "0"; TimeOffset = "+0" -->
+</div>
+</body>
+</html>
+
